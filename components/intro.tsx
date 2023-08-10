@@ -11,7 +11,7 @@ import { FaGithubSquare } from 'react-icons/fa';
 export default function Intro() {
   return (
     <section
-    className="mb-28 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
+    className="mb-40 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
     >
     <div className='flex flex-col'>
     <div className='flex items-center justify-left'>
