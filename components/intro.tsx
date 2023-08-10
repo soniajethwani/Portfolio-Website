@@ -78,16 +78,20 @@ export default function Intro() {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 2, duration: 4, type: "spring", stiffness: 125}}
             >
-        <a className='bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition'>
-            Resume <HiDownload 
+        <a className='bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition cursor-pointer'
+            href="/SoniaJethwani_Resume.pdf"
+            download>
+            Resume {" "} <HiDownload 
             className='opacity-60 group-hover:translate-y-1 transition'/>
         </a> {" "}
 
-        <a className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition'>
+        <a className='bg-white text-gray-700 p-4 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition cursor-pointer'
+            href='https://www.linkedin.com/in/sonia-jethwani-5070901a2/' target="_blank">
             <BsLinkedin />
         </a>
 
-        <a className='bg-white text-gray-700 p-4 flex items-center gap-2 text-[1.2rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition'>
+        <a className='bg-white text-gray-700 p-4 flex items-center gap-2 text-[1.2rem] rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition cursor-pointer'
+            href="https://github.com/soniajethwani" target="_blank">
             <FaGithubSquare />
         </a>
     </motion.div>
