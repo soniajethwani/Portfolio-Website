@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import fakesnake_hoohacks from "@/public/fakesnake_hoohacks.png";
+import uva_scheduleadvisor from "@/public/uva_scheduleadvisor.png";
+import ai_tutor from "@/public/ai_tutor.png";
 
 export const links = [
   {
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "FakeSnake",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
-    imageUrl: corpcommentImg,
+      "This Chrome Extension detects fake news by performing Sentimental Analysis on articles that appear on Google Search. The project was submitted in the 2022 HooHacks Hackathon and won the 2nd Place Google Cloud Award.",
+    tags: ["Python", "Sentimental Analysis", "pandas", "NumPy", "sklearn", "spaCy", "Google Cloud", "HTML"],
+    imageUrl: fakesnake_hoohacks,
   },
   {
-    title: "rmtDev",
+    title: "Schedule Advisor",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "This Schedule Advisor revitalized UVA's Student Information System by using a RESTful framework and tweaking many functionalities. I served as the Scrum Master for my team throughout this semester-long project.",
+    tags: ["Python", "Django", "Bootstrap", "HTML/CSS", "Scrum"],
+    imageUrl: uva_scheduleadvisor,
   },
   {
-    title: "Word Analytics",
+    title: "AI Tutor for UVA Students",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "[IN PROGRESS] Another UVA Project, this one focuses on helping UVA students rather than giving them the answers to classwork. Students can learn on their own with the help of an AI powered chatbot without seeking the help of tutors or the professors, who are usually outnumbered.",
+    tags: ["OpenAI API", "React"],
+    imageUrl: ai_tutor,
   },
 ] as const;
 

@@ -7,11 +7,15 @@ import {motion} from "framer-motion";
 import {HiDownload} from "react-icons/hi";
 import {BsLinkedin} from "react-icons/bs";
 import { FaGithubSquare } from 'react-icons/fa';
+import { useSectionInView } from '@/lib/hooks';
 
 export default function Intro() {
+  const {ref} = useSectionInView('Home', 0.5);
   return (
     <section
+    ref={ref}
     className="mb-40 max-w-[50rem] sm:mb-0 scroll-mt-[100rem]"
+    id="home"
     >
     <div className='flex flex-col'>
     <div className='flex items-center justify-left'>
@@ -31,7 +35,7 @@ export default function Intro() {
               className="rounded object-cover border-[0.35rem] border-white" />
                 <div className="bottom-0 px-4 py-3 bg-gray-500/50 w-full">
                 <p className="text-gray-200 text-center">
-                    <span className="font-bold">My name is Sonia Jethwani.</span> I'm a Computer Science student at the University of Virginia seeking a {" "}
+                    <span className="font-bold">My name is Sonia Jethwani.</span> I'm a Computer Science (BS) student at the University of Virginia seeking a {" "}
                     <span className="font-bold">technical internship for the summer of 2024</span>. I am interested in {" "}
                     <span className="font-bold">back-end and full-stack </span> development.
                 </p>
