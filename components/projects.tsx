@@ -2,7 +2,7 @@
 
 import { projectsData } from '@/lib/data'
 import Project from "./project";
-import React, {useEffect} from "react";
+import React from "react";
 import {motion} from "framer-motion";
 import { useSectionInView } from '@/lib/hooks';
 
@@ -16,7 +16,7 @@ export default function Projects() {
     transition={{ delay: 2, duration: 4, type: "spring", stiffness: 125}}
     id="projects"
     className='scroll-mt-20'>
-      <h2 className='text-center text-4xl font-semibold capitalize mb-8 text-white'>My Projects</h2>
+      <h2 className='text-center text-4xl font-semibold capitalize mb-8 text-white'>Projects</h2>
       <div>
         {projectsData.map((project, index) => (
             <React.Fragment key={index}>

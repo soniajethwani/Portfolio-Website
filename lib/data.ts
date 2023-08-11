@@ -85,8 +85,15 @@ export const projectsData = [
 ] as const;
 
 export const skillsData = [
+  "Java",
+  "Django",
+  "Python",
+  "Scrum",
+  "PostgreSQL",
+  "JSON",
   "HTML",
   "CSS",
+  "SQLite",
   "JavaScript",
   "TypeScript",
   "React",
@@ -94,14 +101,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
-  "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
+  "Bootstrap",
   "Framer Motion",
+  "MatLab",
+  "Test Driven Development",
 ] as const;
