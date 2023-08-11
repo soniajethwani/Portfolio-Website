@@ -35,28 +35,36 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Lead Researcher | Academy of Science",
+    location: "Leesburg, VA",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Led a team of 10 members in developing a more efficient version of DARPA’s disaster robot - created a decentralized robotic swarm capable of mapping a disaster site using lidar maps and Simultaneous Localization and Mapping algorithms",
+    icon: React.createElement(CgWorkAlt),
+    date: "2018-2021",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Coding Instructor | The Coder School",
+    location: "Ashburn, VA",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
+      "Taught students (K-12) Python/Pygame/Javascript/Java/Scratch; hosted Robotics summer camps",
     icon: React.createElement(CgWorkAlt),
     date: "2019 - 2021",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Technology/Engineering Intern | M.C. Dean",
+    location: "Tysons Corner, VA",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Developed method to quickly transfer tags from pdf's to Excel Sheets using Optical Character Recognition - Served as Lead Engineer for 3 projects with companies: Proctor and Gamble, Meta, QTS (Microsoft) – design experience with AutoCAD, SKM, ETAP, AGI/ElumTools, and more",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022",
+  },
+  {
+    title: "Teaching Assistant | University of Virginia",
+    location: "Charlottesville, VA",
+    description:
+      "Instructor for Data Structures and Algorithms, Linear Algebra, and Calculus II - Held office hours, graded assignments, and collaborated with professors in creating class material",
+    icon: React.createElement(CgWorkAlt),
+    date: "2022 - present",
   },
 ] as const;
 
@@ -105,4 +113,5 @@ export const skillsData = [
   "Framer Motion",
   "MatLab",
   "Test Driven Development",
+  "Design Patterns",
 ] as const;

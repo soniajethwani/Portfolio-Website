@@ -35,7 +35,7 @@ export default function Intro() {
               className="rounded object-cover border-[0.35rem] border-white" />
                 <div className="bottom-0 px-4 py-3 bg-gray-500/50 w-full">
                 <p className="text-gray-200 text-center">
-                     I'm a Computer Science (BS) student at the University of Virginia seeking a {" "}
+                     I'm a Computer Science (BS) student at the University of Virginia  and <span className="font-bold">Java SE 8 Oracle Certified Associate</span> seeking a {" "}
                     <span className="font-bold">technical internship for the summer of 2024</span>. I am interested in {" "}
                     <span className="font-bold">back-end and full-stack </span> development.
                 </p>
