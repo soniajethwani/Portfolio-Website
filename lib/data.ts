@@ -114,4 +114,5 @@ export const skillsData = [
   "MatLab",
   "Test Driven Development",
   "Design Patterns",
+  "Swift"
 ] as const;
