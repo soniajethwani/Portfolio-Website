@@ -4,7 +4,7 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import fakesnake_hoohacks from "@/public/fakesnake_hoohacks.png";
 import uva_scheduleadvisor from "@/public/uva_scheduleadvisor.png";
-import ai_tutor from "@/public/ai_tutor.png";
+import kaggle from "@/public/kaggle.jpg";
 
 export const links = [
   {
@@ -66,37 +66,64 @@ export const experiencesData = [
     icon: React.createElement(CgWorkAlt),
     date: "2022 - present",
   },
+  {
+    title: "Research Assistant | University of Virginia",
+    location: "Charlottesville, VA",
+    description:
+      "Web scraping database to determine information on year-by-year election policies in South American countries",
+    icon: React.createElement(CgWorkAlt),
+    date: "Spring 2024",
+  },
+  {
+    title: "Extern | US Patent and Trademark Office",
+    location: "Remote",
+    description:
+      "Working under Deputy Commissioner Karin Ferriter - create code scripts for End-User Software Department, shadow/assist Computer Science Patent Examiner",
+    icon: React.createElement(CgWorkAlt),
+    date: "Summer 2024",
+  },
+  {
+    title: "Software Engineering Intern | CoStar Group",
+    location: "Washington, D.C.",
+    description:
+      "Full-Stack Development, React - Working extensively on Micro-Frontends in CoStar’s Web Enterprise platform, developing an invoicing tool for Costar’s Finance department by integrating Oracle tools into Enterprise",
+    icon: React.createElement(CgWorkAlt),
+    date: "Summer 2024",
+  },
 ] as const;
 
 export const projectsData = [
   {
-    title: "FakeSnake",
+    title: "Kaggle: Predicting Housing Prices",
     description:
-      "This Chrome Extension detects fake news by performing Sentimental Analysis on articles that appear on Google Search. The project was submitted in the 2022 HooHacks Hackathon and won the 2nd Place Google Cloud Award.",
-    tags: ["Python", "Sentimental Analysis", "pandas", "NumPy", "sklearn", "spaCy", "Google Cloud", "HTML"],
-    imageUrl: fakesnake_hoohacks,
+      "Project using regression modeling to predict housing prices in Ames, Iowa based on previously recorded data – top 10 lowest RMSE",
+    tags: ["Machine Learning"],
+    imageUrl: kaggle,
   },
   {
     title: "Schedule Advisor",
     description:
       "This Schedule Advisor revitalized UVA's Student Information System by using a RESTful framework and tweaking many functionalities. I served as the Scrum Master for my team throughout this semester-long project.",
-    tags: ["Python", "Django", "Bootstrap", "HTML/CSS", "Scrum"],
+    tags: ["Agile Development", "Web Development", "API Integration"],
     imageUrl: uva_scheduleadvisor,
   },
   {
-    title: "AI Tutor for UVA Students",
+    title: "FakeSnake",
     description:
-      "[IN PROGRESS] Another UVA Project, this one focuses on helping UVA students rather than giving them the answers to classwork. Students can learn on their own with the help of an AI powered chatbot without seeking the help of tutors or the professors, who are usually outnumbered.",
-    tags: ["OpenAI API", "React"],
-    imageUrl: ai_tutor,
+      "This Chrome Extension detects fake news by performing Sentimental Analysis on articles that appear on Google Search. The project was submitted in the 2022 HooHacks Hackathon and won the 2nd Place Google Cloud Award.",
+    tags: ["Google", "Hackathon", "Sentimental Analysis"],
+    imageUrl: fakesnake_hoohacks,
   },
 ] as const;
 
 export const skillsData = [
   "Java",
   "Django",
+  "MVC",
   "Python",
   "Scrum",
+  "Agile",
+  "SQL",
   "PostgreSQL",
   "JSON",
   "HTML",
@@ -110,9 +137,14 @@ export const skillsData = [
   "Git",
   "Tailwind",
   "Bootstrap",
-  "Framer Motion",
   "MatLab",
   "Test Driven Development",
   "Design Patterns",
-  "Swift"
+  "Architecture Patterns",
+  "Swift",
+  "Machine Learning",
+  "C/C++",
+  "Object Oriented Programming",
+  "Data Structures and Algorithms"
+
 ] as const;

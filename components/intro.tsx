@@ -2,7 +2,7 @@
 
 import Image from 'next/image'
 import React from 'react'
-import profile_picture from "@/public/profile_picture.png"
+import prof_pic from "@/public/prof_pic.jpeg"
 import {motion} from "framer-motion";
 import {HiDownload} from "react-icons/hi";
 import {BsLinkedin} from "react-icons/bs";
@@ -27,7 +27,7 @@ export default function Intro() {
             >
 
             <div className="h-[400px] w-[400px]">
-                <Image src={profile_picture} alt="Sonia's Picture" 
+                <Image src={prof_pic} alt="Sonia's Picture" 
               width="400"
               height="400"
               quality="95"
@@ -35,9 +35,9 @@ export default function Intro() {
               className="rounded object-cover border-[0.35rem] border-white" />
                 <div className="bottom-0 px-4 py-3 bg-gray-500/50 w-full">
                 <p className="text-gray-200 text-center">
-                     My name is Sonia Jethwani. I am a Computer Science (BS) student at the University of Virginia  and <span className="font-bold">Java SE 8 Oracle Certified Associate</span> seeking a {" "}
-                    <span className="font-bold">technical internship for the summer of 2024</span>. I am interested in {" "}
-                    <span className="font-bold">back-end and full-stack </span> development.
+                     My name is Sonia Jethwani. I am a Computer Science (BS) student at the University of Virginia seeking a {" "}
+                    <span className="font-bold">new grad Software Engineering position for 2025</span>. I am interested in {" "}
+                    <span className="font-bold">back-end and full-stack web development as well as machine learning.</span>
                 </p>
                 </div>
             </div>
@@ -83,7 +83,7 @@ export default function Intro() {
             transition={{ delay: 2, duration: 4, type: "spring", stiffness: 125}}
             >
         <a className='bg-white text-black px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-amber-500 active:scale-105 transition cursor-pointer'
-            href="/SoniaJethwani_Resume.pdf"
+            href="/Technical Resume - Sonia Jethwani.pdf"
             download>
             Resume {" "} <HiDownload 
             className='opacity-60 group-hover:translate-y-1 transition'/>
